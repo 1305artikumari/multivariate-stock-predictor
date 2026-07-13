@@ -1,0 +1,39 @@
+{
+  "best_model": "XGBoost",
+  "best_model_file": "best_model.pkl",
+  "is_lstm": false,
+  "lstm_lookback": null,
+  "n_features": 45,
+  "target": "next_day_close",
+  "prediction_mode": "return_reconstructed",
+  "train_size": 1865,
+  "val_size": 400,
+  "test_size": 400,
+  "date_range": [
+    "2015-03-16",
+    "2025-12-29"
+  ],
+  "data_report": {
+    "rows": 2715,
+    "start_date": "2015-01-01",
+    "end_date": "2025-12-30",
+    "missing_values": {
+      "Open": 0,
+      "High": 0,
+      "Low": 0,
+      "Close": 0,
+      "Volume": 0
+    },
+    "duplicate_dates": 0,
+    "non_positive_prices": {
+      "Open": 0,
+      "High": 0,
+      "Low": 0,
+      "Close": 0
+    },
+    "negative_volume": 0,
+    "max_daily_change_pct": 14.718032267412307,
+    "extreme_moves_gt_20pct": 0,
+    "rows_after_clean": 2715
+  }
+}

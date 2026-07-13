@@ -1,0 +1,18 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+env/
+
+# OS / editor
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# Regenerable processed data (created by run.py)
+data/processed/
+
+# Keep: data/raw/*.csv, models/*, outputs/* (needed by the deployed dashboard)
