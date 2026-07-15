@@ -5,6 +5,7 @@ matplotlib>=3.7
 xgboost>=2.0
 joblib>=1.3
 streamlit>=1.30
+plotly>=5.18
 # Optional deep-learning model (LSTM). The pipeline runs without it.
 # On Windows, tensorflow-cpu==2.16.1 imports reliably (newer 2.21 has a known DLL issue).
 # tensorflow-cpu==2.16.1
